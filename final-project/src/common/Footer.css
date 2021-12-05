@@ -1,0 +1,14 @@
+.footer
+{
+    grid-area: footer;
+    background-color: rgb(73, 73, 73);
+    padding-top: 7px; 
+}
+
+.footer li
+{
+    display:inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 10px;   
+}
