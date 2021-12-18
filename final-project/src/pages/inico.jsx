@@ -1,14 +1,17 @@
 import React from "react";
 import Footer from '../common/Footer';
+import Nav from "../common/Nav";
+import MainHome from "../common/MainHome";
+
 import './inicio.css';
 
 const Inicio =()=>{
-    const text = 'Componente Footer con CSS';
     return(
       <>
-      <span>{text}</span>
+      <Nav/>
+      <br />
+      <MainHome/>
       <Footer/>
-
       </>  
     );
 }

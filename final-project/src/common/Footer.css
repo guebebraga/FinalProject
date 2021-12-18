@@ -1,6 +1,5 @@
 .footer
 {
-    grid-area: footer;
     background-color: rgb(73, 73, 73);
     padding-top: 7px; 
 }
