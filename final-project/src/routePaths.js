@@ -1,5 +1,6 @@
 const routePaths = {
-    index: '/',
+    inicio: '/',
+    productos:'/productos'
   }
   
   export default routePaths;

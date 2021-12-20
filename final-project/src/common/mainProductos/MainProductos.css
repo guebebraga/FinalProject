@@ -1,0 +1,16 @@
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 286px 286px 286px 286px 286px 286px 286px;
+    grid-template-areas: 'foto foto foto foto'
+                         'foto foto foto foto'
+                         'foto foto foto foto'
+                         'foto foto foto foto'
+                         'foto foto foto foto'
+                         'foto foto foto foto'
+                         'foto foto foto foto';
+    row-gap: 20px;
+    height: 2002px;
+}
+
+

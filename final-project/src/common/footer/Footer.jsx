@@ -4,7 +4,8 @@ import './Footer.css';
 
 const Footer = () =>{
 return(
-    <footer className="footer">
+    <div className="footer">
+    <footer>
         <ul>
             <li>Copyright 2021 Gabriel Braga</li>
             <li>guebe.braga5@gmail.com</li>
@@ -12,6 +13,7 @@ return(
             <li><a href="https://www.facebook.com/guebe.bassman">Facebook</a></li>
         </ul>
     </footer>
+    </div>
 )
 };
 

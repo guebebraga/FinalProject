@@ -1,0 +1,6 @@
+.img {
+  grid-area: foto;
+  border-radius: 20px;
+  width: 200px;
+  height: 270px;
+}

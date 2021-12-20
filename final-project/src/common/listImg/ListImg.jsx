@@ -1,11 +1,13 @@
 import React from "react";
 
+import './ListImg.css';
+
 const ImageList = ({source})=>{
     return(
-        source.map((img)=>(
+        source.map((link)=>(
             <>
             <div>
-                <img className="img" src={img} />
+                <img className="img" alt= 'img' src={link} />
             </div>
             </>
         ))

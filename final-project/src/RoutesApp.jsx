@@ -2,13 +2,16 @@ import React from "react";
 import {Routes, Route} from 'react-router-dom';
 
 import routePaths from './routePaths';
-import Inicio from "./pages/inico";
+
+import Inicio from "./pages/inicio/inicio";
+import Productos from "./pages/productos/productos";
 
 const RoutesApp = () => {
     return (
       <>
         <Routes>
-          <Route path={routePaths.index} element={< Inicio/>} />
+          <Route path={routePaths.inicio} element={< Inicio/>} />
+          <Route path={routePaths.productos} element={< Productos/>} />
         </Routes>
       </>
     );

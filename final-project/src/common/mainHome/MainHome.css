@@ -1,0 +1,20 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 286px 286px 286px;
+    grid-template-areas: "foto foto foto principal"
+                         "foto foto foto principal"
+                         "foto foto foto principal";
+    height: 1100px;
+}                      
+
+  .imagenGrande{
+      grid-area: principal;    
+  }
+
+  .imgPortada{
+    border-radius: 20px;
+  }
+
+  
+
