@@ -5,6 +5,7 @@ import routePaths from './routePaths';
 
 import Inicio from "./pages/inicio/inicio";
 import Productos from "./pages/productos/productos";
+import MiCuenta from "./pages/miCuenta/miCuenta";
 
 const RoutesApp = () => {
     return (
@@ -12,6 +13,7 @@ const RoutesApp = () => {
         <Routes>
           <Route path={routePaths.inicio} element={< Inicio/>} />
           <Route path={routePaths.productos} element={< Productos/>} />
+          <Route path={routePaths.miCuenta} element={<MiCuenta/>} />
         </Routes>
       </>
     );

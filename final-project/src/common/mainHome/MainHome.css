@@ -1,10 +1,11 @@
 .contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1.5fr;
-    grid-template-rows: 286px 286px 286px;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas: "foto foto foto principal"
                          "foto foto foto principal"
                          "foto foto foto principal";
+    
     height: 1100px;
 }                      
 
