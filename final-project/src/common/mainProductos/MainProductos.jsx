@@ -170,7 +170,7 @@ const MainProductos = () =>{
     useEffect(()=>{
     fetch("http://localhost:4000/productos")
     .then((response)=> response.json())
-    .then((productos2)=> setProductos2(productos2.consulta));
+    .then((productos2)=> setProductos2(productos2.productos));
     },[productos2])
 
     return(
