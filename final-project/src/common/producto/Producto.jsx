@@ -1,11 +1,10 @@
 import React from "react";
 
-import './ListImgProd.css';
+import './Producto.css';
 
-const ImageListProd = ({source})=>{
+const Producto = ({source})=>{
     return(
-        source.slice(0,24).map(({nombre,link,precio})=>(
-            
+        source.map(({nombre,link,precio})=>(       
             <div>
                 <img className="img" alt={nombre} src={link} />
                 <p>{nombre}{precio}</p> 
@@ -15,4 +14,4 @@ const ImageListProd = ({source})=>{
         );
 }
 //slice(0,3) para limitar array            
-export default ImageListProd
+export default Producto
