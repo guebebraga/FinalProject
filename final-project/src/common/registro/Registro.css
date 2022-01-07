@@ -1,0 +1,26 @@
+.form2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    border: 1px solid #dddddd;
+    min-width: 500px;
+}
+
+h1{
+    font-size:29px;
+    font-family: 'Dancing Script', cursive;
+    color: dimgrey;
+    text-align:left;
+}
+
+.crear {
+    font-size: 1.2rem;
+    width: 100px;
+    height: 40px;
+    border-color:black;
+    color:chocolate;
+    background:none; 
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}

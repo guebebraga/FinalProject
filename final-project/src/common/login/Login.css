@@ -13,12 +13,12 @@ h1{
     text-align:left;
 }
 
-.crear {
+.login {
     font-size: 1.2rem;
     width: 100px;
     height: 40px;
     border-color:black;
-    color:chocolate;
+    color:rgb(54, 138, 32);
     background:none; 
     cursor: pointer;
     position: relative;
