@@ -6,7 +6,6 @@ const Login = () => {
   const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
 
-
   const handleSubmit =(e) => {
     // PARA EVITAR QUE EL FORM RESFRESQUE LA PAGINA   
     e.preventDefault();
