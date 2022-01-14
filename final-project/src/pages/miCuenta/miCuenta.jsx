@@ -13,12 +13,7 @@ const MiCuenta =()=>{
       <>
       <Nav/>
       <Registro/>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div className="separacion"/>
       <Login/>
       <Footer/>
       </>  

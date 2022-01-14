@@ -1,7 +1,8 @@
 const routePaths = {
     inicio: '/',
     productos:'/productos',
-    miCuenta: '/miCuenta'
+    miCuenta: '/miCuenta',
+    carrito: '/carrito'
   }
   
   export default routePaths;

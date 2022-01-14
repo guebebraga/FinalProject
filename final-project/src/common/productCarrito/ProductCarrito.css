@@ -1,0 +1,16 @@
+.productoCarrito{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.2fr ;
+}
+.foto{
+    width: 60px;
+    height: 60px;
+    justify-self: center;
+}
+
+.botonLimpiar{
+    width: 60px;
+    height: 30px;
+    align-self: center;
+    }
+      
