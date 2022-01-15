@@ -11,7 +11,6 @@ const Registro = () => {
   const handleSubmit =(e) => {
     // PARA EVITAR QUE EL FORM RESFRESQUE LA PAGINA   
     e.preventDefault();
-    //const user = { mail, password ,name};
 
     if (mail && password && name){
     fetch("http://localhost:4000/miCuenta/registro" , {
