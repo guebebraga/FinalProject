@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Nav.css";
 
-const nav = ()=>{
+const Nav = ()=>{
     return(
         <nav className="nav">                                                     
         <h1>AnimalPlace</h1>
@@ -16,4 +16,4 @@ const nav = ()=>{
     )
 };
 
-export default nav;
+export default Nav;

@@ -10,7 +10,6 @@ import "./CarroDeCompras.css";
 const CarroDeCompras =()=>{
 
     const inicialState = [];
-
     const [prodCar, setProdCar] = useState(inicialState);
     const [productos, setProductos]= useState([]);
 
@@ -38,7 +37,7 @@ const CarroDeCompras =()=>{
     return(
         <div className="carrito"> 
             <h1>Carrito de Compras</h1>
-            <h2>Lista de Productos</h2>
+            <h2>Agreaga Productos al Carrito</h2>
             <article className="">{
              productos.map((product)=><ProductLi data={product} handleAddProd ={handleAddProd}/>)
              }
