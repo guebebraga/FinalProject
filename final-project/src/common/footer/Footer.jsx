@@ -7,7 +7,7 @@ return(
     <div className="footer">
     <footer>
         <ul>
-            <li>Copyright 2021 Gabriel Braga</li>
+            <li>Copyright 2022 Gabriel Braga</li>
             <li>guebe.braga5@gmail.com</li>
             <li><a href="https://www.instagram.com/gabriel.braga.b/?hl=es">Instagram</a></li>
             <li><a href="https://www.facebook.com/guebe.bassman">Facebook</a></li>
